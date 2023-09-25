@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.post('/api/subreddit', (req, res) => {
-    // Subreddit name
+    
     console.log(req.body.name)
    
 
@@ -45,9 +45,9 @@ app.post('/api/subreddit', (req, res) => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
-                'Authorization': 'Basic TWc5czdwbHR4bElCczV3dEU4ZTlmdzpNUFg4VTdsSUZPeGNteFpzNFdsZVRPSEJXLTJHbHc='
+                'Authorization': 'Basic your auth token'
             },
-            body: 'grant_type=password&username=iqs8bot&password=oCMCGjUkzNtqm3d7xUzT!'
+            body: 'grant_type=password&username=enter_your_username&password=enter_your_paswword'
             })
             .then(response => response.json())
             .then(data => {
