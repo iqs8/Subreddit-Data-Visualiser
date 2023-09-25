@@ -1,6 +1,6 @@
 # Installation
 
-1: `git clone https://github.com/iqs8/subreddit-data-visualization`
+1: `git clone https://github.com/iqs8/subreddit-data-visualiser`
 
 2: install node js: https://nodejs.org/en/download/
 
