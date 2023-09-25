@@ -10,9 +10,11 @@
 # Usage 
 
 1: create reddit app at https://www.reddit.com/prefs/apps
-in app.js insert your encoded app id and secret on line 85 and reddit username and password on line 87 
+in app.js in servertest insert your encoded app id and secret on line 85 and reddit username and password 
 
-2: run `npm start` 
+2: run `npm start` from STEST
+
+3: run `node app.js` from servertest
 
 3: input subreddit and wait for data to be displayed (might have to wait a few seconds to get data
 
